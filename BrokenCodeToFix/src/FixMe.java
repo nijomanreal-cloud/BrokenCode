@@ -7,26 +7,26 @@ import java.util.Scanner;
  * @author SPH_SHSM
  */
 public class FixMe {
-public static void main(String[] args) {
-scanner in = new Scanner(System.in);
+	public static void main(String[] args) {
+      Scanner in = new Scanner(System.in);
 //Read in a number
-  int lines = in.nextInt;
-     in.nextLine();
-     									string output="";
+      int lines = in.nextInt;
+      in.nextLine();
+      String output="";
         //Loop through the lines
-     										for (int i == 0, i < lines, i+) {
+      for (int i == 0, i < lines, i+) {
             //Read in a string
- String input = in.nextline();
+      String input = in.nextline();
             //Loop through the characters
  
- char currentChar='a'
- Integer currentCount='0';
- Char previousChar;
- For (int j = 0; j < input.length j++) 
+      char currentChar='a'
+      int currentCount='0';
+      char previousChar;
+      for (int j = 0; j < input.length j++) 
        //if this is the first pass through the loop
- 			if (j=0){
+ 	  if (j=0){
                     //current char is the char at j
- 										currentChar = input.charAt(j);
+ 	  currentChar = input.charAt(j);
                     //current count = 1
       currentCount=2;
  											}
@@ -56,10 +56,8 @@ scanner in = new Scanner(System.in);
                     
                 }
             }
-            //Print newline
-            output+="\n";
-        }
-        //Print the result
-        System.out.println(output);
-        in.close();
-    
+	// Print newline
+	output+="\n";
+}
+// Print the result
+System.out.println(output);in.close();
