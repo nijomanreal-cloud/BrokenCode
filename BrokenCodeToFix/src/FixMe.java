@@ -1,11 +1,12 @@
 //This should be able to solve J3 as seen in Instructions.pdf.
 package ccc2019;
+import java.util.Scanner;
 
 /**
  *
  * @author SPH_SHSM
  */
-public class fixme {
+public class FixMe {
 public static void main(String[] args) {
 scanner in = new Scanner(System.in);
 //Read in a number
